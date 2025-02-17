@@ -1,0 +1,26 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 1000px;
+}
+
+.table th, .table td {
+    text-align: center;
+}
+
+.alert-info {
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .table {
+        font-size: 12px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
