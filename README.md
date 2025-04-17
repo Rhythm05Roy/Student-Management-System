@@ -28,7 +28,7 @@ The Student Management System is a web-based application designed to manage user
    ```
 2. Navigate to the project directory:
    ```bash
-   cd User-Management-Add-User-Crud
+   cd Student-Management-System
    ```
 3. Set up the database:
    - Import the `sql/create_database.sql` file into your MySQL server.
