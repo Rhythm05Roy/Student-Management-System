@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Student Management System
 
 ## Overview
@@ -65,3 +66,6 @@ The Student Management System is a web-based application designed to manage user
 
 ## License
 This project is licensed under the MIT License.
+=======
+# Student-Management-System
+>>>>>>> 5ec30d03b5f81bacf6dd314d0c61f04b9cddabce
