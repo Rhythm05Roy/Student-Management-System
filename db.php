@@ -1,16 +1,20 @@
 <?php
-// db.php - Database connection
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "simple_project_db"; // Replace with your actual DB name
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', '18thmay2000@-');
+define('DB_NAME', 'simple_project_db');
 
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
 
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
+// Set charset
+$conn->set_charset("utf8");
 ?>

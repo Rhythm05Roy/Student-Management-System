@@ -1,0 +1,135 @@
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f9fafb;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #374151; /* Darker text color */
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 3rem; /* Increased padding */
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 14px 28px; /* Increased padding */
+    margin: 1.25rem 0; /* Increased margin */
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.1rem; /* Larger font size */
+    font-weight: 600; /* Bolder font weight */
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Stronger shadow */
+}
+
+.btn:hover {
+    background: #1d4ed8;
+    transform: translateY(-2px); /* More pronounced hover effect */
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.2); /* Stronger hover shadow */
+}
+
+.button-group {
+    margin: 2rem 0; /* Increased margin */
+    display: flex;
+    gap: 1.25rem; /* Increased gap */
+    justify-content: center;
+}
+
+form {
+    background: white;
+    padding: 3rem; /* Increased padding */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Stronger shadow */
+    text-align: left;
+}
+
+.form-group {
+    margin-bottom: 1.75rem; /* Increased margin */
+}
+
+form label {
+    display: block;
+    margin-bottom: 0.625rem; /* Increased margin */
+    color: #374151;
+    font-weight: 600; /* Bolder font weight */
+    font-size: 1rem; /* Larger font size */
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 1rem; /* Increased padding */
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem; /* Larger font size */
+    transition: all 0.2s ease;
+    background: #f9fafb;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #2563eb;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.2);
+    background: #fff;
+}
+
+h1, h2 {
+    color: #111827;
+    margin-bottom: 2rem; /* Increased margin */
+    font-size: 2rem; /* Larger font size */
+    font-weight: 700; /* Bolder font weight */
+}
+
+.error {
+    background: #fef2f2;
+    color: #991b1b;
+    padding: 1.25rem; /* Increased padding */
+    border-radius: 8px;
+    margin-bottom: 1.75rem; /* Increased margin */
+    font-size: 1rem; /* Larger font size */
+    border: 1px solid #fecaca;
+}
+
+.success {
+    background: #ecfdf5;
+    color: #065f46;
+    padding: 1.25rem; /* Increased padding */
+    border-radius: 8px;
+    margin-bottom: 1.75rem; /* Increased margin */
+    font-size: 1rem; /* Larger font size */
+    border: 1px solid #6ee7b7;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    font-weight: 600; /* Bolder font weight */
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #1d4ed8;
+}
+
+p {
+    color: #6b7280;
+    margin-top: 1.25rem; /* Increased margin */
+    font-size: 1rem; /* Slightly larger font size */
+    line-height: 1.5; /* Improved line height */
+}
